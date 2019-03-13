@@ -11,7 +11,7 @@ int main()
     int size_str_ulli_number, size_ulli_max, size_my_vec_number;
 
     //set max ullong_max total elements
-    str_ulli_max = to_string(1000);
+    str_ulli_max = to_string(123);
     size_ulli_max = str_ulli_max.length();
     reverse(str_ulli_max.begin(),str_ulli_max.end());
 
@@ -67,7 +67,11 @@ int main()
         cout<<"\nCyfra w [0]: " << str_ulli_number[0];
         if(size_str_ulli_number==size_ulli_max) break;
     }
-    if (size_str_ulli_number<size_ulli_max)
+    if(size_str_ulli_number==size_ulli_max)
+    {
+
+    }
+    else if (size_str_ulli_number<size_ulli_max)
     {
         ulli_number = stoull(str_ulli_number);
         my_vec_number.push_back(0);
@@ -78,6 +82,7 @@ int main()
             cout<<"["<<my_vec_number[i]<<"]";
         }
     }
+
 
     return 0;
 }
