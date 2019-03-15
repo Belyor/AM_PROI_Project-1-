@@ -2,7 +2,7 @@
 #include <string>
 
 using namespace std;
-
+//zmiany 2
 int main()
 {
     string str_ulli_number, str_ulli_max;
