@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
-1552322122 source:/home/andrzej/PROGRAMOWANIE_OBIEKTOWE/projekt_1/main.cpp
+1552674902 source:/home/andrzej/PROGRAMOWANIE_OBIEKTOWE/projekt_1/main.cpp
 	<bits/stdc++.h>
+	<string>
 
