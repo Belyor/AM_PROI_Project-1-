@@ -31,11 +31,27 @@ int main()
     reverse(str_ulli_max.begin(),str_ulli_max.end());
 */
     string str_ulli_number;
-    cout << "Gimmi numba\n";
+    cout << "Gimmi numba I \n";
     cin >> str_ulli_number;
     cout <<"\n Number: "<<str_ulli_number<<endl;
 
    big_number number1(str_ulli_number);
+    cout <<"\n Number1: "<<number1.get_string_number()<<endl;
+
+
+
+    cout << "Gimmi numba II \n";
+    cin >> str_ulli_number;
+    cout <<"\n Number: "<<str_ulli_number<<endl;
+
+   big_number number2(str_ulli_number);
+   cout <<"\n Number2: "<<number2.get_string_number()<<endl;
+
+
+
+   number1 = number2;
+   cout <<"\n Number3: "<<number1.get_string_number()<<endl;
+
 
 
     //size_str_ulli_substraction = size_str_ulli_number;

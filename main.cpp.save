@@ -24,22 +24,39 @@ int main()
         unsigned long long int  ULLI_MAX;
         int size_str_ulli_number;
         int size_my_vec_number;
-        int size_str_ulli_max;   
+        int size_str_ulli_max;
     ULLI_MAX = 11;
     str_ulli_max = to_string(ULLI_MAX);
     size_str_ulli_max = str_ulli_max.length();
     reverse(str_ulli_max.begin(),str_ulli_max.end());
 */
     string str_ulli_number;
-    cout << "Gimmi numba\n";
+    cout << "Gimmi numba I \n";
     cin >> str_ulli_number;
     cout <<"\n Number: "<<str_ulli_number<<endl;
-   
-   big_number number1
-   
+
+   big_number number1(str_ulli_number);
+    cout <<"\n Number1: "<<number1.string_number<<endl;
+
+
+
+    cout << "Gimmi numba II \n";
+    cin >> str_ulli_number;
+    cout <<"\n Number: "<<str_ulli_number<<endl;
+
+   big_number number2(str_ulli_number);
+   cout <<"\n Number2: "<<number2.string_number<<endl;
+
+
+
+   number1 = number2;
+      cout <<"\n Number3: "<<number1.string_number<<endl;
+
+
+
     //size_str_ulli_substraction = size_str_ulli_number;
 
-    
+
 
 
     //******************DODAWANIE*******
