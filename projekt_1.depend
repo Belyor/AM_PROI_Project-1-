@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1553034069 source:/home/andrzej/PROGRAMOWANIE_OBIEKTOWE/projekt_1/main.cpp
+1553073873 source:/home/andrzej/PROGRAMOWANIE_OBIEKTOWE/projekt_1/main.cpp
 	"big_number.h"
 	<bits/stdc++.h>
 	<string>
@@ -7,7 +7,7 @@
 1553033351 source:/home/andrzej/PROGRAMOWANIE_OBIEKTOWE/projekt_1/src/big_number.cpp
 	"big_number.h"
 
-1553035073 /home/andrzej/PROGRAMOWANIE_OBIEKTOWE/projekt_1/include/big_number.h
+1553074948 /home/andrzej/PROGRAMOWANIE_OBIEKTOWE/projekt_1/include/big_number.h
 	<bits/stdc++.h>
 	<string>
 

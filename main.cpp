@@ -2,22 +2,20 @@
 #include <bits/stdc++.h>
 #include <string>
 
-
 using namespace std;
 
-void printString (string printing, int strSize)
+void printString(string printing, int strSize)
 {
-    for (int i = 0; i<strSize; i++)
+    for (int i = 0; i < strSize; i++)
     {
         cout << printing[i];
     }
 }
 
-
 //dodajemy zmiany
 int main()
 {
-        /*string str_ulli_number;
+    /*string str_ulli_number;
         string str_ulli_max;
         vector <unsigned long long int> my_vec_number(1);
         unsigned long long int ulli_number;
@@ -33,35 +31,26 @@ int main()
     string str_ulli_number;
     cout << "Gimmi numba I \n";
     cin >> str_ulli_number;
-    cout <<"\n Number: "<<str_ulli_number<<endl;
+    cout << "\n Number: " << str_ulli_number << endl;
 
-   big_number number1(str_ulli_number);
-    cout <<"\n Number1: "<<number1.get_string_number()<<endl;
-
-
+    big_number number1(str_ulli_number);
+    cout << "\n Number1: " << number1.get_string_number() << endl;
 
     cout << "Gimmi numba II \n";
     cin >> str_ulli_number;
-    cout <<"\n Number: "<<str_ulli_number<<endl;
+    cout << "\n Number: " << str_ulli_number << endl;
 
-   big_number number2(str_ulli_number);
-   cout <<"\n Number2: "<<number2.get_string_number()<<endl;
+    big_number number2(str_ulli_number);
+    cout << "\n Number2: " << number2.get_string_number() << endl;
 
-
-
-   number1 = number2;
-   cout <<"\n Number3: "<<number1.get_string_number()<<endl;
-
-
+    number1 = number2;
+    cout << "\n Number3: " << number1.get_string_number() << endl;
 
     //size_str_ulli_substraction = size_str_ulli_number;
 
-
-
-
     //******************DODAWANIE*******
 
-/*
+    /*
     string str_numba_1, str_numba_2, str_numba_sum;
     int size_str_numba_1, size_str_numba_2, what_is_longer, size_str_numba_sum, r;
 
@@ -114,9 +103,6 @@ int main()
 
 
 */
-
-
-
 
     return 0;
 }
